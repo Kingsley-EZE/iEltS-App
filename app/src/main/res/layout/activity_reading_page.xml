@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadingPageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="12dp"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="#D7BCF7"
+        android:padding="16dp"
+        android:layout_marginTop="20pt"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_reading_illustration"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reading"
+                android:fontFamily="@font/bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/essay_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:text="Essays"
+        android:textSize="18sp"
+        android:background="@drawable/border_background"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:fontFamily="@font/bold"
+        />
+
+        <TextView
+            android:id="@+id/story_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:text="Stories"
+            android:textSize="18sp"
+            android:background="@drawable/border_background"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:fontFamily="@font/bold"
+            />
+
+        <TextView
+            android:id="@+id/the_quiz_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:text="Quiz"
+            android:textSize="18sp"
+            android:background="@drawable/border_background"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:fontFamily="@font/bold"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginTop="7pt"
+            >
+
+            <View
+                android:layout_width="40pt"
+                android:layout_height="2dp"
+                android:background="#d3d3d3"
+                android:layout_weight="1"
+                android:layout_marginTop="5pt"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vocabulary"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:layout_marginStart="14pt"
+                    />
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="40pt"
+                android:layout_height="2dp"
+                android:background="#d3d3d3"
+                android:layout_weight="1"
+                android:layout_marginTop="5pt"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Vocabulary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:text="5000 IELTS Vocabularies"
+            android:textSize="18sp"
+            android:background="@drawable/border_background"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:fontFamily="@font/bold"
+            />
+
+        <TextView
+            android:id="@+id/phrases_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:text="Most Common Phrases"
+            android:textSize="18sp"
+            android:background="@drawable/border_background"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:fontFamily="@font/bold"
+            />
+
+        <TextView
+            android:id="@+id/common_words_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:text="Most Common Words"
+            android:textSize="18sp"
+            android:background="@drawable/border_background"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:fontFamily="@font/bold"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginTop="7pt"
+            >
+
+            <View
+                android:layout_width="60pt"
+                android:layout_height="2dp"
+                android:background="#d3d3d3"
+                android:layout_weight="1"
+                android:layout_marginTop="5pt"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:layout_marginStart="15pt"
+                    />
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="60pt"
+                android:layout_height="2dp"
+                android:background="#d3d3d3"
+                android:layout_weight="1"
+                android:layout_marginTop="5pt"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/the_expression_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:text="Useful Expression"
+            android:textSize="18sp"
+            android:background="@drawable/border_background"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:fontFamily="@font/bold"
+            />
+
+        <TextView
+            android:id="@+id/proverbs_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:text="English Proverbs"
+            android:textSize="18sp"
+            android:background="@drawable/border_background"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:fontFamily="@font/bold"
+            />
+
+        <TextView
+            android:id="@+id/verbs_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:text="Irregular Verbs"
+            android:textSize="18sp"
+            android:background="@drawable/border_background"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:fontFamily="@font/bold"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

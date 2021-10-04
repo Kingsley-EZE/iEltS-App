@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="12dp"
+    app:cardMaxElevation="3dp"
+    app:cardCornerRadius="4dp"
+    android:id="@+id/the_card"
+    >
+
+    <LinearLayout
+        android:id="@+id/linear_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D7BCF7"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+            <TextView
+                android:id="@+id/quiz_tv_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Quiz 1"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:fontFamily="@font/bold"
+                />
+
+        <RelativeLayout
+            android:id="@+id/expandable_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3pt"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/quiz_question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Quiz 1"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:fontFamily="@font/bold"
+                />
+
+            <TextView
+                android:id="@+id/option_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="7dp"
+                android:padding="15dp"
+                android:text="Option 1"
+                android:textSize="18sp"
+                android:background="@drawable/light_border_bg"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:fontFamily="@font/bold"
+                android:layout_below="@id/quiz_question"
+                />
+
+            <TextView
+                android:id="@+id/option_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="Option 2"
+                android:layout_margin="7dp"
+                android:textSize="18sp"
+                android:background="@drawable/light_border_bg"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:fontFamily="@font/bold"
+                android:layout_below="@id/option_one"
+                />
+
+            <TextView
+                android:id="@+id/option_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:text="Option 3"
+                android:textSize="18sp"
+                android:background="@drawable/light_border_bg"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:fontFamily="@font/bold"
+                android:layout_below="@id/option_two"
+                />
+
+            <TextView
+                android:id="@+id/option_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:text="Option 4"
+                android:textSize="18sp"
+                android:background="@drawable/light_border_bg"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:fontFamily="@font/bold"
+                android:layout_below="@id/option_three"
+                />
+
+            <TextView
+                android:id="@+id/option_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:text="Submit"
+                android:textSize="18sp"
+                android:background="@drawable/border_background"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:fontFamily="@font/bold"
+                android:layout_below="@id/option_four"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

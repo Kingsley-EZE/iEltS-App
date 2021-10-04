@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">iEltS Application</string>
+    <string name="grow_ielts_txt">Grow your IELTS skills </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="details"> Air pollution is increasingly becoming the focus of government and citizen concern around the
+globe. From Mexico City and New York to Singapore and Tokyo, new solutions to this old problem
+are being proposed, Mailed and implemented with ever increasing speed. It is feared that unless
+pollution reduction measures are able to keep pace with the continued pressures of urban growth,
+air quality in many of the world’s major cities will deteriorate beyond reason.
+ Action is being taken along several fronts: through new legislation, improved enforcement and
+innovative technology. In Los Angeles, state regulations are forcing manufacturers to try to
+sell ever cleaner cars: their first of the cleanest, titled "Zero Emission Vehicles’, have
+to be available soon, since they are intended to make up 2 percent of sales in 1997. Local
+authorities in London are campaigning to be allowed to enforce anti-pollution laws themselves;
+at present only the police have the power to do so, but they tend to be busy elsewhere.
+In Singapore, renting out road space to users is the way of the future.
+When Britain’s Royal Automobile Club monitored the exhausts of 60,000 vehicles, it found that 12
+percent of them produced more than half the total pollution. Older cars were the worst offenders;
+though a sizeable number of quite new cars were also identified as gross polluters, they were
+simply badly tuned. California has developed a scheme to get these gross polluters off the streets:
+they offer a flat $700 for any old, run-down vehicle driven in by its owner. The aim is to remove
+the heaviest-polluting, most decrepit vehicles from the roads.</string>
+    <string name="details1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+molestiae quas vel sint commodi repudiandadie consequuntur voluptatum laborum
+numquam blanditiis harum quisquam eius sed ot fugiat iusto fuga praesentium
+optio, eaque rerum! Provident similique accusantium nemo autem.</string>
+    <string name="details2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+optio, eaque rerum! Provident similique accusantium nemo autem.</string>
+    <string name="beginner">A: What are you doing today?\n
+                            B: I plan on watching football.\n\n
+
+                            A: What are you doing today?\n
+                            B: I plan on watching football.\n\n
+
+                            A: What are you doing today?\n
+                            B: I plan on watching football.\n\n
+
+                            A: What are you doing today?\n
+                            B: I plan on watching football.</string>
+</resources>

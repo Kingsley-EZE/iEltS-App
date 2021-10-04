@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/onboarding"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/grow_ielts_txt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/bold"
+        android:layout_marginTop="150pt"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="everyday!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/bold"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_get_started"
+        android:layout_width="100pt"
+        android:layout_height="wrap_content"
+        android:text="Get Started"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:background="@drawable/button_select"
+        android:layout_marginTop="10pt"
+        />
+
+</LinearLayout>
